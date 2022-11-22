@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Prasoft.API</name>
+    </assembly>
+    <members>
+        <member name="M:Prasoft.API.Controllers.OrdersController.GetAllOrder(Prasoft.Data.PaginationParameters)">
+            <summary>
+            Get All Order
+            </summary>
+            <param name="paginationParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.OrdersController.GetOrderById(System.Int64)">
+            <summary>
+            Get Order By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.OrdersController.PutOrder(Prasoft.Data.Orders)">
+            <summary>
+            Update the Order
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.OrdersController.DeleteOrder(System.Int64)">
+            <summary>
+            Delete the Order
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.OrdersController.PostOrder(Prasoft.Data.Orders)">
+            <summary>
+            Create Order
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.ProductsController.GetAllProduct(Prasoft.Data.PaginationParameters)">
+            <summary>
+            Get All Product
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.ProductsController.GetAllPicture(Prasoft.Data.PaginationParameters)">
+            <summary>
+            Get All Picture
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.ProductsController.GetAllProductVariantGroup(Prasoft.Data.PaginationParameters)">
+            <summary>
+            Get All Product Variant Group
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.ProductsController.GetAllProductVariant(Prasoft.Data.PaginationParameters)">
+            <summary>
+            Get All Product Variant
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.ProductsController.GetAllVariantName(Prasoft.Data.PaginationParameters)">
+            <summary>
+            Get All Variant Name
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.ProductsController.GetAllVariantValue(Prasoft.Data.PaginationParameters)">
+            <summary>
+            Get All Variant Value
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.ProductsController.GetAllVariantPicture(Prasoft.Data.PaginationParameters)">
+            <summary>
+            Get All Variant Picture
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.ProductsController.getProductByID(System.Int64)">
+            <summary>
+            Get Product By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.ProductsController.PutProduct(Prasoft.Data.Product)">
+            <summary>
+            Update the Product
+            </summary>
+            <param name="u"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.ProductsController.DeleteProduct(System.Int64)">
+            <summary>
+            Delete the Product
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.ProductsController.PostProduct(Prasoft.Data.Product)">
+            <summary>
+            Create the Product
+            </summary>
+            <param name="u"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.VariantNamesController.GetAllVariantName(Prasoft.Data.PaginationParameters)">
+            <summary>
+            Get All Variant Name
+            </summary>
+            <param name="paginationParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Prasoft.API.Controllers.VariantNamesController.PostVariantName(Prasoft.Data.VariantName)">
+            <summary>
+            Create Variant Name
+            </summary>
+            <param name="u"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
